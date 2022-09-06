@@ -1,0 +1,130 @@
+body {
+    border: 1px solid black;
+    width: 960px;
+    height auto
+    
+}
+header {
+    border: 1px dashed red;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    height: 80px;
+    width: 960px;
+    border: 1px dashed blue;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 10px;
+    justify-content: stretch
+}
+
+logo {
+    /* border: 1px solid green; */
+    grid-column-start: 1;
+    grid-column-end: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div1 {
+    /* border: 1px solid green; */
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+div2 {
+    /* border: 1px solid green; */
+    grid-column-start: 3;
+    grid-column-end: 4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div3 {
+    /* border: 1px solid green; */
+    grid-column-start: 4;
+    grid-column-end: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div4 {
+    /* border: 1px solid green; */
+    grid-column-start: 5;
+    grid-column-end: 6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    border: 1px dashed red;
+    height: 100px;
+}
+
+container1 {
+    margin-bottom: 20px;
+}
+
+hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+
+container2{
+    margin-top: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    justify-content: space-between;
+
+}
+
+sBanner{
+    /* border: 1px solid red; */
+}
+
+container3 {
+    margin-top: 20px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    justify-content: space-between;
+
+}
+
+featureText {
+    border: 1px solid red;
+    width: 480px; display: grid;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    justify-content: stretch;
+}
+Text {
+    border: 1px dashed blue;
+    height: 250px;
+    font-size: larger;
+
+}
+
+footer {
+    border: 1px dashed red;
+    height: 100px;
+    width: 100%;
+    background-color: grey
+}
