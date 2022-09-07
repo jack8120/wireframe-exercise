@@ -70,10 +70,10 @@ div4 {
 
 main {
     border: 1px dashed red;
-    height: 100px;
+    height: auto;
 }
 
-container1 {
+#container1 {
     margin-bottom: 20px;
 }
 
@@ -121,10 +121,16 @@ Text {
     font-size: larger;
 
 }
+button {
+    background-color: lightgray;
+    height: 80px;
+    width: auto;
+}
 
 footer {
     border: 1px dashed red;
     height: 100px;
     width: 100%;
-    background-color: grey
+    background-color: lightgrey;
+    margin-top: 20px;
 }
